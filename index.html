@@ -269,11 +269,18 @@
 		<script src="js/app.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
+$('.year-5').text('1995');
+$('.year-4').text('1994');
+$('.year-3').text('1993');
+$('.year-2').text('1992');
+$('.year-1').text('1991');
+$('.year-0').text('1990');
+
                 $(document).snow({ SnowImage: "images/floatingfrog.gif", Quantity: 20 });
 
                 // Countdown Timer
                 var start = new Date();
-                var daysToAdd = 5;
+                var daysToAdd = 4;
 
                 if (window.location.hash) {
                     daysToAdd = parseInt(window.location.hash.split('#')[1]);
