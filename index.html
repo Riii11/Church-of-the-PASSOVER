@@ -10,22 +10,24 @@
 
 		<title>Church of the Passover Angel</title>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.co...0RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
 
 		<!-- Loading third party fonts -->
 		<link href="fonts/novecento-font/novecento-font.css" rel="stylesheet" type="text/css">
-		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <link rel="stylesheet" href="css/flipclock.css">
 
 		<!-- Loading main css file -->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
+
+    <!-- Angel Favicon -->
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAASEREAq7GzAARn0QBE0vIA8u7pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEREQAAAAAAABEREAAAAAAAAREQAAAAAAAAERAAAAAAAAABEQAAAAAAAAEREQAAAAAERFEREQAAAEREUQAAwIAEREQAzIiIgAREQADMAACABEQAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
 
 		<!--[if lt IE 9]>
 		<script src="js/ie-support/html5.js"></script>
 		<script src="js/ie-support/respond.js"></script>
 		<![endif]-->
-
-        <!-- Angel Favicon -->
-        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQA...AAAAAAAAAAAAAAAAAAAAAAAAAAAAA" rel="icon" type="image/x-icon" />
 	</head>
 	<body>
 		<div class="site-content">
@@ -36,247 +38,232 @@
 						<h1 class="site-title">Church of the Passover Angel</h1>
 					</a>
 
-					<nav class="main-navigation">
-						<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+					<div class="main-navigation">
+						<button class="menu-toggle"><i class="fa fa-bars"></i> Menu</button>
 						<ul class="menu">
-							<li class="menu-item current-menu-item"><a href="#">Homepage</a></li>
-							<li class="menu-item"><a href="#about">About us</a></li>
-							<li class="menu-item"><a href="#sermons">Sermons</a></li>
-							<li class="menu-item"><a href="#events">Events</a></li>
-							<li class="menu-item"><a href="#contact">Contact</a></li>
+							<li class="menu-item current-menu-item">
+                                <a href="index.html">Homepage <small>Lorem ipsum</small></a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="about.html">About Us <small>About Our Church</small></a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="sermons.html">Sermons <small>Words From On High</small></a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="book.html">The Book <small>Donate Today</small></a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#contact">Contact <small>We Want To Hear From You</small></a>
+                            </li>
 						</ul>
-					</nav>
+					</div>
 
-					<div class="mobile-menu"></div>
+					<div class="mobile-navigation"></div>
 				</div>
 			</header> <!-- .site-header -->
 
-			<div class="hero">
-				<div class="container">
-					<img src="images/angel-cross.png" alt="" class="hero-image">
-					<h2 class="hero-title">Let the Passover Angel Lift You Up</h2>
-					<p>He will pass over those who are marked with His sign, and bring righteous justice to all.</p>
-					<a href="#about" class="button">About us</a>
-					<a href="#events" class="button secondary-btn">Upcoming events</a>
-				</div>
-			</div>
+            <div class="container">
+                <div class="clock fullwidth-block">
+                    <h1 class="text-center">The Angel Cometh!</h1>
+                    <br>
+                    <div class="countdown"></div>
+                    <p class="news news-title text-center">
+                        For I will pass through the land of Egypt this night,<br>
+                        and will smite all the firstborn in the land of Egypt, both man and beast;<br>
+                        and against all the gods of Egypt I will execute judgment: <br>
+                        I <i>am</i> the LORD.
+                    </p>
+                    <h3 class="text-center">Now is the time to get right with God - before it's too late!</h3>
+                </div>
+            </div>
 
 			<main class="main-content">
-				<div class="fullwidth-block latest-sermons-section" data-bg-color="#f8f8f8">
+				<div class="fullwidth-block">
 					<div class="container">
-						<header class="section-header">
-							<h2 class="section-title">Recent sermons</h2>
-
-							<div class="sermon-nav">
-								<a class="prev-sermon"><i class="fa fa-caret-left"></i></a>
-								<a class="next-sermon"><i class="fa fa-caret-right"></i></a>
-							</div>
-						</header>
-						<div class="latest-sermons">
-							<ul>
-								<li>
-									<h3 class="sermon-title"><a href="#">The Mark of the Angel</a></h3>
-									<h4 class="sermon-meta">by <a href="#">Pastor Ezekiel</a> | <span class="sermon-date"><i class="fa fa-calendar"></i>15 apr <span class="year-5"></span></span></h4>
-									<p>Who shall the Angel of the Passover spare, and who shall be left for the night to devour?</p>
-									<a href="#" class="button secondary-btn">Read transcript</a>
-								</li>
-								<li>
-									<h3 class="sermon-title"><a href="#">The Night of Passing Over</a></h3>
-									<h4 class="sermon-meta">by <a href="#">Pastor Micah</a> | <span class="sermon-date"><i class="fa fa-calendar"></i>25 jul <span class="year-4"></span></span></h4>
-									<p>Be not afraid of the darkness nor the sound of the wings in the night, for the Angel brings mercy as well as judgment.</p>
-									<a href="#" class="button secondary-btn">Read transcript</a>
-								</li>
-								<li>
-									<h3 class="sermon-title"><a href="#">Marked by the Angel</a></h3>
-									<h4 class="sermon-meta">by <a href="#">Pastor Deborah</a> | <span class="sermon-date"><i class="fa fa-calendar"></i>10 dec <span class="year-3"></span></span></h4>
-									<p>Those who bear the mark of the Angel shall pass through the trials of this world untouched by the plagues that consume the unmarked.</p>
-									<a href="#" class="button secondary-btn">Read transcript</a>
-								</li>
-							</ul>
-						</div>
+						<h2 class="section-title">Recent news</h2>
 
 						<div class="row">
-							<div class="col-md-4">
-								<div class="feature">
-									<i class="fa fa-angellist"></i>
-									<h3 class="feature-title">Our Belief</h3>
-									<p>We believe in the Passover Angel, the winged messenger of divine justice, who marks the faithful and delivers them from the trials of this world. Through His mark, we are spared, protected, and elevated.</p>
+							<div class="col-md-3 col-sm-6">
+								<div class="news">
+									<image class="news-image" src="images/news-thumb-1.jpg"></image>
+									<h3 class="news-title"><a href="sermons.html#sermonOne">The Sun Darkens</a></h3>
+									<small class="date"><i class="fa fa-calendar"></i>15 apr <span class="year-5"></span></small>
 								</div>
 							</div>
-							<div class="col-md-4">
-								<div class="feature">
-									<i class="fa fa-fire"></i>
-									<h3 class="feature-title">The Night of Passing</h3>
-									<p>On that holy night, the Angel passed over the marked houses, sparing the righteous and bringing swift justice to those left unmarked. We honor this night in our rituals and our teachings, as a reminder of His discerning grace.</p>
+							<div class="col-md-3 col-sm-6">
+								<div class="news">
+									<image class="news-image" src="images/news-thumb-2.jpg"></image>
+									<h3 class="news-title"><a href="sermons.html#sermonTwo">Satan’s Control of U.S. Government</a></h3>
+									<small class="date"><i class="fa fa-calendar"></i>24 mar <span class="year-5"></span></small>
 								</div>
 							</div>
-							<div class="col-md-4">
-								<div class="feature">
-									<i class="fa fa-shield"></i>
-									<h3 class="feature-title">The Mark of Protection</h3>
-									<p>The mark we bear is not of this world—it is a sign of the Angel's wings overshadowing us. Through it, we are shielded from harm, from despair, and from the plagues of the unmarked. It is a symbol of our covenant with the Angel.</p>
+							<div class="col-md-3 col-sm-6">
+								<div class="news">
+									<image class="news-image" src="images/news-thumb-3.jpg"></image>
+									<h3 class="news-title"><a href="sermons.html#sermonThree">Angels of Vengeance</a></h3>
+									<small class="date"><i class="fa fa-calendar"></i>01 jan <span class="year-5"></span></small>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="news">
+									<image class="news-image" src="images/news-thumb-4.jpg"></image>
+									<h3 class="news-title"><a href="sermons.html#sermonFour">New World Disorder</a></h3>
+									<small class="date"><i class="fa fa-calendar"></i>25 jul <span class="year-4"></span></small>
 								</div>
 							</div>
 						</div> <!-- .row -->
 					</div> <!-- .container -->
-				</div> <!-- .fullwidth-block.latest-sermons-section -->
-
-				<div class="fullwidth-block upcoming-event-section" data-bg-color="#fff">
-					<div class="container">
-						<header class="section-header">							
-							<h2 class="section-title">Upcoming events</h2>
-							<div class="event-nav">
-								<a class="prev-event"><i class="fa fa-caret-left"></i></a>
-								<a class="next-event"><i class="fa fa-caret-right"></i></a>
-							</div>
-						</header>
-						<div class="row">
-							<div class="col-md-4">
-								<div class="event">
-									<div class="entry-date">
-										<div class="date">12</div>
-										<span class="month">Nov</span>
-									</div>
-									<h2 class="entry-title"><a href="#">The Night of Remembrance</a></h2>
-									<p>The faithful gather to commemorate the first Passing Over, where the Angel spared the marked and brought judgment upon the unmarked.</p>
-									<a href="#events" class="button secondary-btn">More details</a>
-								</div> <!-- .event -->
-							</div>
-							<div class="col-md-4">
-								<div class="event">
-									<div class="entry-date">
-										<div class="date">23</div>
-										<span class="month">Dec</span>
-									</div>
-									<h2 class="entry-title"><a href="#">The Marking Ritual</a></h2>
-									<p>A sacred ceremony in which the devoted receive the Angel’s mark, ensuring their homes and hearts are passed over during trials.</p>
-									<a href="#events" class="button secondary-btn">More details</a>
-								</div> <!-- .event -->
-							</div>
-							<div class="col-md-4">
-								<div class="event">
-									<div class="entry-date">
-										<div class="date">05</div>
-										<span class="month">Jan</span>
-									</div>
-									<h2 class="entry-title"><a href="#">Wings of Protection</a></h2>
-									<p>A night of prayer and testament, where witnesses share how the Angel’s wings shielded them from danger and despair.</p>
-									<a href="#events" class="button secondary-btn">More details</a>
-								</div> <!-- .event -->
-							</div>
-						</div> <!-- .row -->
-					</div> <!-- .container -->
-				</div> <!-- .fullwidth-block.upcoming-event-section -->
+				</div> <!-- section -->
 
 				<div class="fullwidth-block">
-					<div class="map"></div>
 					<div class="container">
 						<div class="row">
-							<div class="col-md-7">
-								<div class="boxed-content">
-									<h2 class="section-title" id="about">About the Church</h2>
-									<p>The Church of the Passover Angel is dedicated to the worship and reverence of the Angel who marks the faithful and passes over them in times of trial. We teach of the Angel's dual nature—bringer of mercy and justice, shield and sword in one being.</p>
-                                    <p>We believe that those who are marked by the Angel will be spared the suffering that befalls the unmarked. Our rituals, prayers, and teachings revolve around this central tenet: to live in a way that is worthy of the Angel's mark, and to help others receive it.</p>
-									<a href="#sermons" class="button">See upcoming sermons</a>
-								</div>
-							</div>
-							<div class="col-md-4 col-md-push-1">
-								<div class="boxed-content">
-									<h3 class="section-title"><a name="events">Service Timings</a></h3>
-									<ul class="list-fa">
-										<li><i class="fa fa-clock-o"></i>Monday - Thursday <span class="pull-right">05:00 pm - 07:00 pm</span></li>
-										<li><i class="fa fa-clock-o"></i>Friday <span class="pull-right">06:00 pm - 08:00 pm</span></li>
-										<li><i class="fa fa-clock-o"></i>Saturday <span class="pull-right">04:00 pm - 07:00 pm</span></li>
-										<li><i class="fa fa-clock-o"></i>Sunday <span class="pull-right">08:00 am - 11:00 am</span></li>
-									</ul>
-								</div>
-							</div>
-						</div> <!-- .row -->
-					</div> <!-- .container -->
-				</div> <!-- .fullwidth-block -->
-
-				<div class="fullwidth-block" data-bg-color="#f8f8f8">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-7">
-								<h2 class="section-title"><a name="sermons">Upcoming Sermons</a></h2>
-								<ul class="sermon-list large">
+							<div class="col-md-6">
+								<h2 class="section-title">Ways To Prepare</h2>
+								<ul class="event-list">
 									<li>
-										<h3 class="sermon-title"><a href="#">The Wings Over the Doorpost</a></h3>
-										<h4 class="sermon-meta">by <a href="#">Pastor Ezekiel</a> | <span class="sermon-date"><i class="fa fa-calendar"></i>02 feb <span class="year-2"></span></span></h4>
-										<p>Why the Angel passes over some and not others, and how we may prepare our hearts and homes to be overshadowed by His wings.</p>
+										<a href="http://www.hardenedstructures.com/genesisseries.php">
+											<h3 class="event-title">Genesis Series Shelters</h3>
+											<span class="event-meta">
+												<span><i class="fa fa-calendar"></i>30 mar <span class="year-5"></span></span>
+											</span>
+										</a>
 									</li>
 									<li>
-										<h3 class="sermon-title"><a href="#">The Cry in the Night</a></h3>
-										<h4 class="sermon-meta">by <a href="#">Pastor Micah</a> | <span class="sermon-date"><i class="fa fa-calendar"></i>13 mar <span class="year-1"></span></span></h4>
-										<p>The lamentations of the unmarked, and how we are called to bring them into the fold before the Angel passes again.</p>
+										<a href="http://graywolfsurvival.com/95815/best-prepper-resources-and-recommendations-feb-2015/">
+											<h3 class="event-title">The Right Stuff</h3>
+											<span class="event-meta">
+												<span><i class="fa fa-calendar"></i>12 feb <span class="year-5"></span></span>
+											</span>
+										</a>
 									</li>
 									<li>
-										<h3 class="sermon-title"><a href="#">The Mark on the Heart</a></h3>
-										<h4 class="sermon-meta">by <a href="#">Pastor Deborah</a> | <span class="sermon-date"><i class="fa fa-calendar"></i>21 may <span class="year-0"></span></span></h4>
-										<p>The mark is not only on the doorpost, but on the heart. How we live as those who have been chosen and spared.</p>
+										<a href="http://www.atlassurvivalshelters.com/">
+											<h3 class="event-title">Atlas Shelters</h3>
+											<span class="event-meta">
+												<span><i class="fa fa-calendar"></i>04 apr <span class="year-4"></span></span>
+											</span>
+										</a>
+									</li>
+									<li>
+										<a href="http://www.askaprepper.com/19-survival-skills-you-can-teach-your-children-this-summer/">
+											<h3 class="event-title">Prepare Your Kids</h3>
+											<span class="event-meta">
+												<span><i class="fa fa-calendar"></i>23 may <span class="year-3"></span></span>
+											</span>
+										</a>
+									</li>
+									<li>
+										<a href="http://tasteheavennow.net/why_repent/end_times.htm">
+											<h3 class="event-title">Repent Now!</h3>
+											<span class="event-meta">
+												<span><i class="fa fa-calendar"></i>01 jan <span class="year-2"></span></span>
+											</span>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.whatchristianswanttoknow.com/list-of-the-ten-plagues-in-egypt-from-the-bible/">
+											<h3 class="event-title">Know What Is Coming</h3>
+											<span class="event-meta">
+												<span><i class="fa fa-calendar"></i>15 aug <span class="year-0"></span></span>
+											</span>
+										</a>
 									</li>
 								</ul>
-							</div>
-							<div class="col-md-4 col-md-push-1">
-								<h2 class="section-title">Minister’s Message</h2>
-								<p>Beloved, the wings of the Passover Angel are ever over us, but we must not take His mercy for granted. We are called to be vigilant, to live righteously, and to bear His mark with humility.</p>
-								<p>The night may be dark, and the cries of the unmarked may fill the air, but we who are under His wings shall not fear. Let us open our doors and hearts, inviting others to stand with us under the shelter of His judgment and grace.</p>
-								<img src="images/pastor.png" alt="" class="pastor-image">
-								<h3 class="pastor-name">Pastor Ezekiel</h3>
-								<small class="date"><i class="fa fa-calendar"></i>25 dec <span class="year-0"></span></small>
-							</div>
-						</div><!-- .row -->
-					</div> <!-- .container -->
-				</div> <!-- .fullwidth-block -->
 
-				<div class="fullwidth-block cta" data-bg-color="#2d2d2d">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8">
-								<h2 class="cta-title">Countdown to the Next Night of Passing</h2>
-								<p>The Angel will pass over again soon. Are you marked, and are your loved ones prepared?</p>
+								<div class="text-center">
+									<a href="#" class="button">More Ways To Prepare</a>
+								</div>
 							</div>
-							<div class="col-md-3 col-md-push-1">
-								<div class="countdown"></div>
-							</div>
-						</div> <!-- .row -->
-					</div> <!-- .container -->
-				</div> <!-- .fullwidth-block.cta -->
-
-				<div class="fullwidth-block" data-bg-color="#f8f8f8">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4">
-								<div class="widget">
-									<h3 class="widget-title"><a name="contact">Contact form</a></h3>
-									<form action="#" class="contact-form">
-										<div class="row">
-											<div class="col-md-6"><input type="text" placeholder="Your name..."></div>
-											<div class="col-md-6"><input type="text" placeholder="Email..."></div>
+							<div class="col-md-6">
+								<h2 class="section-title">Previous sermons</h2>
+								<ul class="sermon-list">
+									<li>
+										<img src="images/small-thumb-1.jpg" alt="">
+										<div class="sermon-detail">
+											<h3 class="sermon-title"><a href="sermons.html#sermonFive">The Judge is At the Door</a></h3>
+											<div class="sermon-meta">
+												<div class="pastor"><i class="fa fa-user"></i> Reverend Balfour</div>
+												<div class="date"><i class="fa fa-calendar"></i> 09 nov <span class="year-3"></span></div>
+											</div>
 										</div>
-										<textarea name="" placeholder="Your message..."></textarea>
-										<div class="text-right"><input type="submit" value="Send message"></div>
-									</form>
+									</li>
+									<li>
+										<img src="images/small-thumb-2.jpg" alt="">
+										<div class="sermon-detail">
+											<h3 class="sermon-title"><a href="sermons.html#sermonSix">Annointed By God</a></h3>
+											<div class="sermon-meta">
+												<div class="pastor"><i class="fa fa-user"></i> Reverend Balfour</div>
+												<div class="date"><i class="fa fa-calendar"></i> 22 jan <span class="year-3"></span></div>
+											</div>
+										</div>
+									</li>
+									<li>
+										<img src="images/small-thumb-3.jpg" alt="">
+										<div class="sermon-detail">
+											<h3 class="sermon-title"><a href="sermons.html#sermonSeven">THE TIME HAS COME!</a></h3>
+											<div class="sermon-meta">
+												<div class="pastor"><i class="fa fa-user"></i> Reverend Balfour</div>
+												<div class="date"><i class="fa fa-calendar"></i>26 jun <span class="year-2"></span></div>
+											</div>
+										</div>
+									</li>
+								</ul>
+
+								<div class="text-center">
+									<a href="sermons.html" class="button">See all sermons</a>
 								</div>
 							</div>
 						</div> <!-- .row -->
+					</div> <!-- .container -->
+				</div> <!-- section -->
+			</main> <!-- .main-content -->
 
-						<p class="colophon">Copyright <span class="year-0"></span> Church of the Passover Angel. All right reserved</p>
-					</div><!-- .container -->
-				</div> <!-- .fullwidth-block -->
-			</main>
-			
 			<footer class="site-footer">
 				<div class="container">
-					<p class="colophon">Copyright 
-                        <span class="year-0"></span> Church of the Passover Angel. All right reserved</p>
-				</div>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title">Our address</h3>
+								<p>There is but one Church in which men find salvation, just as outside the ark of Noah it was not possible for anyone to be saved. (Thomas Aquinas)</p>
+								<ul class="address">
+									<li><i class="fa fa-map-marker"></i> 1313 Mockingbird Ln, Cleveland, OH 44106</li>
+									<li><i class="fa fa-phone"></i> (216) 555 0180</li>
+									<li><i class="fa fa-envelope"></i> info@passoverangel.com</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget text-center">
+								<h2 class="widget-title">Free Gift With Donation!</h2>
+								<a href="book.html"><img src="images/book_thumb.png"></a>
+                                <p><strong>$29.95</strong></p>
+                                <img src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_donate_cc_147x47.png" alt="Donate">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="widget">
+								<h3 class="widget-title"><a name="contact">Contact form</a></h3>
+								<form action="#" class="contact-form">
+									<div class="row">
+										<div class="col-md-6"><input type="text" placeholder="Your name..."></div>
+										<div class="col-md-6"><input type="text" placeholder="Email..."></div>
+									</div>
+									<textarea name="" placeholder="Your message..."></textarea>
+									<div class="text-right"><input type="submit" value="Send message"></div>
+								</form>
+							</div>
+						</div>
+					</div> <!-- .row -->
+
+					<p class="colophon">Copyright <span class="year-0"></span> Church of the Passover Angel. All right reserved</p>
+				</div><!-- .container -->
 			</footer> <!-- .site-footer -->
 
 		</div>
 
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"...iig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
         <script src="js/snow.js"></script>
         <script src="js/flipclock.min.js"></script>
 		<script src="js/app.js"></script>
@@ -284,18 +271,9 @@
             $(document).ready(function(){
                 $(document).snow({ SnowImage: "images/floatingfrog.gif", Quantity: 20 });
 
-                // Fixed year mapping 2013–2008 -> 1995–1990
-                $('.year-0').text('1995'); // originally 2013
-                $('.year-1').text('1994'); // originally 2012
-                $('.year-2').text('1993'); // originally 2011
-                $('.year-3').text('1992'); // originally 2010
-                $('.year-4').text('1991'); // originally 2009
-                $('.year-5').text('1990'); // originally 2008
-
-
                 // Countdown Timer
                 var start = new Date();
-                var daysToAdd = 4; 
+                var daysToAdd = 5;
 
                 if (window.location.hash) {
                     daysToAdd = parseInt(window.location.hash.split('#')[1]);
